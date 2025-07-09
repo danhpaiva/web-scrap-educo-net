@@ -39,7 +39,72 @@ WebScrapEducation/
 ├── LatoSensu/
 │   └── IfesSulMinas.cs
 ├── StrictoSenso/
-│   └── CefetEducTecno.cs
+│   ├── CefetEducTecno.cs
 │   └── Utfpr.cs
 ├── Program.cs
 └── WebScrapEducation.csproj
+```
+
+---
+
+## 🧠 Funcionalidades
+
+- Realiza requisições HTTP com `HttpClient`.
+- Analisa documentos HTML com `HtmlAgilityPack`.
+- Filtra e extrai informações de **períodos de inscrição**.
+- Verifica automaticamente se os editais estão **abertos** com base na data atual.
+- Exibe os dados no console de forma organizada e clara.
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/danhpaiva/web-scrap-educo-net.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd web-scrap-educo-net/WebScrapEducation
+```
+
+3. Execute o projeto com o .NET CLI:
+
+```bash
+dotnet run
+```
+
+---
+
+## 📥 Dependências
+
+Instaladas via NuGet:
+
+```bash
+dotnet add package HtmlAgilityPack --version 1.12.1
+```
+
+---
+
+## 📌 Observações
+
+- O projeto tem fins educacionais e pode ser utilizado como base para automações mais complexas de monitoramento de vagas e oportunidades educacionais.
+- Caso os sites mudem a estrutura do HTML, o scraping pode deixar de funcionar e será necessário ajustar os seletores XPath.
+
+---
+
+## 👨‍💻 Autor
+
+**Daniel Paiva**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danhpaiva/)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
